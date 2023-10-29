@@ -386,8 +386,8 @@ void monitor(pid_t pid, const unsigned long long int time_limit, const unsigned 
             }
             default:
             {
-                status = LTPP_SERVER_ERROR;
-                updateErrorResault(status, "判题机异常", "");
+                status = LTPP_CODE_ERROR;
+                updateErrorResault(status, "用户代码运行错误", "");
                 return;
             }
             }
