@@ -65,7 +65,7 @@
         :scrollStyle="true"
         :transition="true"
         :codeStyle="codeStyle"
-        box-shadow-style="0 2px 12px 0 rgba(0, 0, 0, 0.1)"
+        box-shadow-style="0 2px 12px 0 rgba(var(--ltpp-main-bk-color), 0.1)"
         toolbars-background="#ffffff"
         preview-background="#fbfbfb"
       >
@@ -183,7 +183,7 @@ export default {
         ul: true, // 无序列表
         link: true, // 链接
         code: true, // code
-        readmodel: false, // 沉浸式阅读
+        readmodel: true, // 沉浸式阅读
         htmlcode: false, // 展示html源码
         /* 2.1.8 */
         alignleft: true, // 左对齐
@@ -402,7 +402,7 @@ body {
     box-sizing: border-box;
 
     &:hover {
-      color: #ffffffe6;
+      color: var(--ltpp-box-text-color);
       text-decoration: none;
       background-color: rgba(248, 249, 250, 0.2);
       border-color: rgba(248, 249, 250, 0.3);
