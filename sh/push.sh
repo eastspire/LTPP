@@ -12,7 +12,7 @@ fi
 git commit -m "feat:$update_message";
 git push github main;
 echo -e "\e[32mgithub push finish\e[0m";
-git push ltpp main;
+git push ltpp master;
 echo -e "\e[32mltpp push finish\e[0m";
 echo "Press Enter to continue...";
 read -n 1;
