@@ -1,4 +1,6 @@
 #!/bin/bash
+git lfs install;
+git config lfs.allowincompletepush true;
 git config --global core.autocrlf input;
 git add .;
 echo -n "Please enter the update message and press Enter:"
@@ -10,7 +12,7 @@ if [ -z "$update_message" ]; then
     exit 1
 fi
 git commit -m "feat:$update_message";
-git push github main;
+git push github master;
 echo -e "\e[32mgithub push finish\e[0m";
 git push ltpp master;
 echo -e "\e[32mltpp push finish\e[0m";
