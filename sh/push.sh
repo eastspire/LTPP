@@ -1,4 +1,5 @@
 #!/bin/bash
+git lfs install;
 git config lfs.allowincompletepush true;
 git config --global core.autocrlf input;
 git add .;
