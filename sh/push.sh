@@ -16,5 +16,7 @@ git push github main;
 echo -e "\e[32mgithub push finish\e[0m";
 git push ltpp main;
 echo -e "\e[32mltpp push finish\e[0m";
+git push origin main;
+echo -e "\e[32morigin push finish\e[0m";
 echo "Press Enter to continue...";
 read -n 1;
