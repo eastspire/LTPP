@@ -3,6 +3,11 @@ git lfs install;
 git config lfs.allowincompletepush true;
 git config --global core.autocrlf input;
 git add .;
+echo -n "Please enter the branch and press Enter:"
+read branch
+if [ -z "$branch" ]; then
+    branch="master"
+fi
 echo -n "Please enter the update message and press Enter:"
 read update_message
 if [ -z "$update_message" ]; then
