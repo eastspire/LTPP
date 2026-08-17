@@ -1,5 +1,7 @@
 # LTPP
 
+[GitHub Roast 评分](https://ghfind.com/u/eastspire?ref=badge)
+
 > **LTPP**（**Learning Teaching Practice Platform**）—— 在线开发平台后端。
 > 整合 Web 开发、代码判题、Git 仓库管理、邮件服务、RTMP 直播、SSL 证书申请、
 > 反向代理等多种能力，面向"教学 / 练习 / 实战"一体化场景。
